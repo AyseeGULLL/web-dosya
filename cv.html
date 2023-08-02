@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="tr"> <!-- Türkçe dil kodu -->
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
@@ -12,161 +12,175 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  </head>
-  <body>
+</head>
+<body>
+    <!-- Ana konteyner -->
     <div class="container">
-      <div class="left_Side">
-        <div class="profileText">
-          <div class="imgBX">
-            <img src="" />
-          </div>
-          <h2>Ayşe Gül Demez<br /><span>ÖĞRENCİ</span></h2>
+        <!-- Sol tarafta CV bölümü -->
+        <div class="left_Side">
+            <!-- Profil bölümü -->
+            <div class="profileText">
+                <div class="imgBX">
+                    <!-- Profil resmi (boş kaynak) -->
+                    <img src="" />
+                </div>
+                <!-- İsim ve ünvan -->
+                <h2>Ayşe Gül Demez<br /><span>ÖĞRENCİ</span></h2>
+            </div>
+            <!-- İletişim bilgileri bölümü -->
+            <div class="contactInfo">
+                <h3 class="title">İLETİŞİM BİLGİLERİ</h3>
+                <ul>
+                    <li>
+                        <!-- Telefon simgesi ve numara -->
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">0555 555 55 55</span>
+                    </li>
+                    <li>
+                        <!-- Zarf simgesi ve e-posta adresi -->
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">ayseguldemez@gmail.com</span>
+                    </li>
+                    <li>
+                        <!-- Dünya simgesi ve web sitesi adresi -->
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                        <span class="text">www.deneme5.com</span>
+                    </li>
+                    <li>
+                        <!-- LinkedIn simgesi ve profil bağlantısı -->
+                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <span class="text">www.linkedin.com/me</span>
+                    </li>
+                    <li>
+                        <!-- Harita işareti simgesi ve konum -->
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Malatya</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Eğitim bölümü -->
+            <div class="contactInfo education">
+                <h3 class="title">EĞİTİM</h3>
+                <ul>
+                    <li>
+                        <!-- Yıl ve eğitim kurumu -->
+                        <h5>2015-2019</h5>
+                        <h4>Malatya AİHL</h4>
+                    </li>
+                    <li>
+                        <!-- Yıl, üniversite ve bölüm (Bilgisayar Mühendisliği) -->
+                        <h5>2020-?</h5>
+                        <h4>Bozok Üniversitesi</h4>
+                        <h4>Bilgisayar Mühendisliği</h4>
+                    </li>
+                    <li>
+                        <!-- Yıl, üniversite ve bölüm (Grafik Tasarım) -->
+                        <h5>2022-?</h5>
+                        <h4>İstanbul Üniversitesi</h4>
+                        <h4>Grafik Tasarım</h4>
+                    </li>
+                </ul>
+            </div>
+            <!-- Dil bölümü -->
+            <div class="contactInfo languag">
+                <h3 class="title">DİL</h3>
+                <ul>
+                    <li>
+                        <!-- Dil adı ve dil seviyesi -->
+                        <span class="text">Türkçe</span>
+                        <span class="percent">
+                            <div style="width: 90%"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">İngilizce</span>
+                        <span class="percent">
+                            <div style="width: 30%"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Arapça</span>
+                        <span class="percent">
+                            <div style="width: 10%"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <div class="contactInfo">
-          <h3 class="title">İLETİŞİM BİLGİLERİ</h3>
-          <ul>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-phone" aria-hidden="true"></i
-              ></span>
-              <span class="text">0555 555 55 55</span>
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-envelope-o" aria-hidden="true"></i
-              ></span>
-              <span class="text">ayseguldemez@gmail.com</span>
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-globe" aria-hidden="true"></i
-              ></span>
-              <span class="text">www.deneme5.com</span>
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-linkedin" aria-hidden="true"></i
-              ></span>
-              <span class="text">www.linkedin.com/me</span>
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-map-marker" aria-hidden="true"></i
-              ></span>
-              <span class="text">Malatya</span>
-            </li>
-          </ul>
+        <!-- Sağ tarafta CV bölümü -->
+        <div class="right_Side">
+            <!-- Hakkında bölümü -->
+            <div class="about">
+                <h2 class="title2">PROFİL</h2>
+                <!-- Kişisel profil açıklaması -->
+                <p>
+                    Merhaba! Ben Ayşe Gül Demez. Bozok Üniversitesi Bilgisayar Mühendisliği
+                    öğrencisiyim. Teknolojiye olan ilgim ve merakım sayesinde web
+                    geliştirme alanında kendimi geliştirmeye çalışıyorum. Öğrenmeye ve yeni
+                    projeler denemeye hevesliyim. Aynı zamanda grafik tasarım konusunda da
+                    ilgi duyuyorum. Daha fazla deneyim kazanmak ve yeteneklerimi
+                    geliştirmek için çeşitli projeler üzerinde çalışıyorum.
+                </p>
+            </div>
+            <!-- Deneyim bölümü -->
+            <div class="about">
+                <h2 class="title2">DENEYİM</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <!-- Hiç deneyim belirtilmemiş -->
+                        <p>Yok.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Beceri bölümü -->
+            <div class="about skills">
+                <h2 class="title2">Yazılımlar</h2>
+                                <!-- Beceri çubukları ve seviyeleri -->
+                <div class="box">
+                    <h4>Html</h4>
+                    <div class="percent">
+                        <div style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Css</h4>
+                    <div class="percent">
+                        <div style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Php</h4>
+                    <div class="percent">
+                        <div style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Javascript</h4>
+                    <div class="percent">
+                        <div style="width: 30%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>C</h4>
+                    <div class="percent">
+                        <div style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>C++</h4>
+                    <div class="percent">
+                        <div style="width: 40%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>C#</h4>
+                    <div class="percent">
+                        <div style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="contactInfo education">
-          <h3 class="title">EĞİTİM</h3>
-          <ul>
-            <li>
-              <h5>2015-2019</h5>
-              <h4>Malatya AİHL</h4>
-            </li>
-            <li>
-              <h5>2020-?</h5>
-              <h4>Bozok Üniversitesi</h4>
-              <h4>Bilgisayar Mühendisliği</h4>
-            </li>
-            <li>
-              <h5>2022-?</h5>
-              <h4>İstanbul Üniversitesi</h4>
-              <h4>Grafik Tasarım</h4>
-            </li>
-          </ul>
-        </div>
-        <div class="contactInfo languag">
-          <h3 class="title">DİL</h3>
-          <ul>
-            <li>
-              <span class="text">Türkçe</span>
-              <span class="percent">
-                <div style="width: 90%"></div>
-              </span>
-            </li>
-            <li>
-              <span class="text">İngilizce</span>
-              <span class="percent">
-                <div style="width: 30%"></div>
-              </span>
-            </li>
-            <li>
-              <span class="text">Arapça</span>
-              <span class="percent">
-                <div style="width: 10%"></div>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="right_Side">
-        <div class="about">
-          <h2 class="title2">PROFİL</h2>
-          <p>
-            Merhaba! Ben Ayşe Gül Demez. Bozok Üniversitesi Bilgisayar Mühendisliği
-            öğrencisiyim. Teknolojiye olan ilgim ve merakım sayesinde web
-            geliştirme alanında kendimi geliştirmeye çalışıyorum. Öğrenmeye ve yeni
-            projeler denemeye hevesliyim. Aynı zamanda grafik tasarım konusunda da
-            ilgi duyuyorum. Daha fazla deneyim kazanmak ve yeteneklerimi
-            geliştirmek için çeşitli projeler üzerinde çalışıyorum.
-          </p>
-        </div>
-        <div class="about">
-          <h2 class="title2">DENEYİM</h2>
-          <div class="box">
-            <div class="year_company">
-              <p>Yok.</p>
-            </div>
-          </div>
-        </div>
-        <div class="about skills">
-          <h2 class="title2">Yazılımlar</h2>
-          <div class="box">
-            <h4>Html</h4>
-            <div class="percent">
-              <div style="width: 80%"></div>
-            </div>
-          </div>
-          <div class="box">
-            <h4>Css</h4>
-            <div class="percent">
-              <div style="width: 60%"></div>
-            </div>
-          </div>
-          <div class="box">
-            <h4>Php</h4>
-            <div class="percent">
-              <div style="width: 50%"></div>
-            </div>
-          </div>
-          <div class="box">
-            <h4>Javascript</h4>
-            <div class="percent">
-              <div style="width: 30%"></div>
-            </div>
-          </div>
-          <div class="box">
-            <h4>C</h4>
-            <div class="percent">
-              <div style="width: 50%"></div>
-            </div>
-          </div>
-          <div class="box">
-            <h4>C++</h4>
-            <div class="percent">
-              <div style="width: 40%"></div>
-            </div>
-          </div>
-          <div class="box">
-            <h4>C#</h4>
-            <div class="percent">
-              <div style="width: 60%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </body>
+</body>
 </html>
+
