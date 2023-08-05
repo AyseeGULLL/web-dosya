@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/iletişim.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Form</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Adınz Soyadınız</label>
+          <input type="text" placeholder="Adınızı giriniz" required />
+        </div>
+        <div class="input-box">
+          <label>Email </label>
+          <input type="text" placeholder="Email adresini giriniz" required />
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>Telefon</label>
+            <input type="number" placeholder="Telefon Numarınızı Giriniz" required />
+          </div>
+          <div class="input-box">
+            <label>Doğum Tarihi</label>
+            <input type="date" placeholder="" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Hangi Takımı Tutuyorsunuz</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">FB</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">GS</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">BJ</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Adres</label>
+          <input type="text" placeholder="Adresinizi Giriniz" required />
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>İL</option>
+                <option>MALATYA</option>
+                <option>SAKARYA</option>
+                <option>YOZGAT</option>
+                <option>NEVŞEHİR</option>
+              </select>
+            </div>
+           <br> İlçe
+            <input type="text" placeholder="İlçe giriniz" required />
+          </div>
+          <div class="column">
+            <label>En Sevdiğin Renk</label>
+            <input type="text" placeholder="Lütfen Doldurunuz" required />
+            <input type="file" placeholder="Seçiniz" required />
+          </div>
+        </div>
+        <button>Gönder</button>
+        <button type="reset">Temizle</button>
+      </form>
+    </section>
+  </body>
+</html>
