@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+
+}
+#menu{
+    height: 80px;
+    background-color:rgb(176, 211, 225);
+    padding: 0 20px;
+}
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: aliceblue;
+}
+#anasayfa{
+    background-color: rgba(173, 237, 255, 0.726);
+    height: 620px;
+    background-image:url("../img/anas.jpg") ;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+}
+#black{
+    height: 620px;
+    background-color: rgba(189, 229, 243, 0.232);
+    opacity: 0.5;
+
+}
+#tanıtım{
+    background-color: rgb(213, 233, 241);
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+h3{
+    font-size: 55px;
+    color: rgb(61, 58, 146);
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+#sol{
+    float: left;
+    border-right:3px solid #445c6e ;
+    font-size:30px ;
+    width: 400px;
+    color:#445c6e  ;
+
+}
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+#h5sol,#sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.img-fluid{
+
+    width: 800px;
+    height: 340px; ;
+}
+.pson{
+    color: #999;;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+#gez{
+    background-color: rgba(103, 144, 156, 0.515);
+    padding: 50px;
+    text-align: center;
+   height: 720px;
+}
+.card{
+    width: 350px;
+    height: 370px;
+    border: 1px solid #ddd ;
+    padding: 0;
+    background-color: #fff;
+    display: inline-block;
+}
+.img{
+    height: 300px;
+    width: 348px;
+}
+.baslikcard{
+    font: size 15px;
+    color: #003666;
+}
+.card:hover{
+    border: 2px solid gray;
+}
+#TAKİM{
+    background-color: rgba(103, 144, 156, 0.515);
+    padding: 50px;
+    text-align: center;
+   height: 720px;
+}
+  
+ #takim .header {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .interest {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 2rem);
+  }
+  
