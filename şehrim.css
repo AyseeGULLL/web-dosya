@@ -9,7 +9,7 @@ body{
 }
 #menu{
     height: 80px;
-    background-color:rgb(176, 211, 225);
+    background-color:#a0bed1;
     padding: 0 20px;
 }
 #logo{
@@ -32,7 +32,7 @@ body{
 
 }
 #tanıtım{
-    background-color: rgb(213, 233, 241);
+    background-color: #a0bed1;
     padding: 50px;
     text-align: center;
     text-transform: capitalize;
@@ -84,7 +84,7 @@ h3{
     font-weight: 100;
 }
 #gez{
-    background-color: rgba(103, 144, 156, 0.515);
+    background-color: #a0bed1;
     padding: 50px;
     text-align: center;
    height: 720px;
@@ -92,9 +92,9 @@ h3{
 .card{
     width: 350px;
     height: 370px;
-    border: 1px solid #ddd ;
+    border: 1px solid #3b424f ;
     padding: 0;
-    background-color: #fff;
+    background-color: #f9f4f4;
     display: inline-block;
 }
 .img{
@@ -103,7 +103,7 @@ h3{
 }
 .baslikcard{
     font: size 15px;
-    color: #003666;
+    color: #293843;
 }
 .card:hover{
     border: 2px solid gray;
