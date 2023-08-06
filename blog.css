@@ -1,0 +1,54 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   
+}
+
+header {
+   background-color: #957788;
+   color: #fff;
+   text-align: center;
+   padding: 1rem 0;
+}
+
+header h1 {
+   margin: 0;
+}
+
+main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 2rem 0;
+}
+
+section {
+   flex: 0 1 350px;
+   padding: 1rem;
+   margin-bottom: 1rem;
+   border: 7px solid #977595;
+   text-align: center;
+}
+
+section .box {
+   height: 200px; /* Örnek olarak 200px yükseklik verdim, istediğiniz değeri ayarlayabilirsiniz */
+   overflow: hidden;
+}
+
+section img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+section p {
+   margin-top: 0px;
+}
+
+footer {
+   background-color: #61505d;
+   color: #fff;
+   text-align: center;
+   padding: 1rem 0;
+}
